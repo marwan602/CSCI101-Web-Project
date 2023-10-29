@@ -1,7 +1,7 @@
 body {
     /* background:linear-gradient(cyan,green); */
-    background:linear-gradient(rgb(250, 242, 200) 35%, rgb(226, 147, 141));
-    background-repeat:no-repeat;
+    background:linear-gradient(rgb(250, 242, 200) 20%, rgb(226, 147, 141));
+    /* background-repeat:no-repeat; */
     /* background-attachment: fixed; */
     font-family: 'Montserrat';  
     color: rgb(28, 18, 18);
