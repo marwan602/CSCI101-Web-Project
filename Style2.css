@@ -1,0 +1,40 @@
+body {
+    /* background:linear-gradient(cyan,green); */
+    background:linear-gradient(rgb(250, 242, 200) 35%, rgb(238, 111, 102));
+    background-repeat:no-repeat;
+    /* background-attachment: fixed; */
+    font-family: 'Montserrat';  
+    color: rgb(28, 18, 18);
+    margin-left: 10%;
+  
+}
+
+
+
+.gradient{
+    background: -webkit-linear-gradient(60deg, #0a0201 0%,#cc1616 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+a:link, :visited, :active{
+  color: black;
+  text-decoration: none;
+}
+.button {
+  transition-duration: 0.2s;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Lato Black';  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+}

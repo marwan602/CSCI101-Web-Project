@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Montserrat';  
+    color: whitesmoke;
+    margin-left: 5%;
+  
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.gradient{
+    background: -webkit-linear-gradient(60deg, #ff5c40 0%,#dc1f93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+a:link, :visited{
+  color: black;
+  text-decoration: none;
+}
+.button {
+  transition-duration: 0.2s;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Lato Black';  
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
