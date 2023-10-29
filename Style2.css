@@ -1,6 +1,6 @@
 body {
     /* background:linear-gradient(cyan,green); */
-    background:linear-gradient(rgb(250, 242, 200) 20%, rgb(226, 147, 141));
+    background:linear-gradient(165deg,rgb(250, 242, 200) 30%, rgb(226, 147, 141));
     /* background-repeat:no-repeat; */
     /* background-attachment: fixed; */
     font-family: 'Montserrat';  
